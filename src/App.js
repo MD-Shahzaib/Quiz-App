@@ -1,52 +1,6 @@
-// quiz code 2---------------------------------------------------------.
-
-import StartBox from "./components/StartBox";
-import QuestionBox from "./components/QuestionBox";
-import ResultBox from "./components/ResultBox";
-function App() {
-  // fetch data from api call.
-  // const getData = fetch('https://opentdb.com/api.php?amount=10&category=23&difficulty=medium&type=multiple')
-  //   .then(res => res.json())
-  //   .then((data) => { console.log(data.results) })
-  return (
-    <>
-      {/* <StartBox /> */}
-      <QuestionBox />
-      {/* <ResultBox /> */}
-    </>
-  );
-}
-export default App;
-
-// quiz code 2---------------------------------------------------------.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// quiz code 1 ---------------------------------------------------.
-// This code have only 2 files {App.js ,App.css}-----------------.
+// quiz code 1 complete ---------------------------------------------------.
 /*
+// This code have only 2 files {App.js ,App.css}-----------------.
 import React, { useState } from 'react'
 import './App.css'
 function App() {
@@ -207,4 +161,42 @@ function App() {
 
 export default App;
 */
-// quiz code 1 ---------------------------------------------------.
+// quiz code 1 complete ---------------------------------------------------.
+
+
+
+
+
+
+
+
+
+
+
+
+
+// quiz code 2 incomplete ------------------------------------------------.
+import StartBox from "./components/StartBox";
+import QuestionBox from "./components/QuestionBox";
+import ResultBox from "./components/ResultBox";
+function App() {
+  /*
+  fetch data from api call.
+  const getData = fetch('https://opentdb.com/api.php?amount=10&category=23&difficulty=medium&type=multiple')
+    .then(res => res.json())
+    .then((data) => { console.log(data.results) })
+  */
+  return (
+    <>
+      {/* <StartBox /> */}
+      <QuestionBox />
+      {/* <ResultBox /> */}
+    </>
+  );
+}
+export default App;
+
+// quiz code 2 incomplete ------------------------------------------------.
+
+
+
